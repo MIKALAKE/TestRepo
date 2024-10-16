@@ -1,3 +1,5 @@
 import Home from './Home';
+import PastTodos from './PastTodos';
+import UpcomingTodos from './UpcomingTodos';
 
-export { Home };
+export { Home, PastTodos, UpcomingTodos };

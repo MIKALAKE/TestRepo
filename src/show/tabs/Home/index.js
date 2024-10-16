@@ -1,9 +1,16 @@
-import { View } from 'react-native';
+import { Text, View } from 'react-native';
 
-import Todo from '../../components/Todo';
+import styles from '../../styles';
+import { ColumnView } from '../../containers';
 
 const Home = () => {
-  return <Todo />;
+  return (
+    <View style={styles.defaultPageContainer}>
+      <ColumnView>
+        <Text>Home</Text>
+      </ColumnView>
+    </View>
+  );
 };
 
 export default Home;
